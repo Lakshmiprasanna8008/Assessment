@@ -1,0 +1,26 @@
+.matrix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: rgb(46, 42, 42);
+  height: 100vh;
+  width: 100vw;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+}
+.heading {
+  color: white;
+  margin-top: 0px;
+}
